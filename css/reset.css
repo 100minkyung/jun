@@ -22,7 +22,7 @@
 /* CSS Reset */
 
 html {font-size: 62.5%;}
-body{-ms-overflow-style: none; font-size: 1.6rem; background: #D9D9D9;}
+body{-ms-overflow-style: none; font-size: 1.6rem; background: #D9D9D9; max-width: 1920px;}
 ::-webkit-scrollbar {display: none;}
 body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,select,table,td,textarea,th,ul, header, nav, section, video, div { margin:0; padding:0; box-sizing: border-box;}
 button,input { border-radius:0; border: none; background-color: transparent; cursor: pointer;}
