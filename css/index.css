@@ -1,0 +1,247 @@
+/* section1 */
+.sec1{
+    position: relative;
+    padding: 0 20rem;
+    font-family: "BASKVILL";
+    color: #fff;
+    background-image: url(../img/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec1 span{
+    position: absolute;
+    top: -19rem;
+    left: 45%;
+    transform: translateX(-50%);
+    font-family: "BASKVILL-R";
+    font-size: 105rem;
+    mix-blend-mode: overlay;
+    opacity: 0.6;
+}
+.sec1 p:first-of-type{
+    padding-top: 20rem;
+    text-align: center;
+    font-weight: 500;
+    font-size: 3.5rem;
+}
+.sec1 h1{
+    padding-top: 8rem;
+    font-family: "BASKVILL-R";
+    text-align: center;
+    font-weight: 400;
+    font-size: 31.3rem;
+}
+.sec1 h3{
+    margin-top: 34rem;
+    font-size: 4rem;
+    font-weight: 400;
+}
+.sec1 h2{
+    margin-top: 10rem;
+    font-size: 10rem;
+    font-weight: 400;
+}
+.sec1 p:nth-of-type(2){
+    margin-top: 11rem;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #B9B9B9;
+}
+.sec1 p:nth-of-type(3){
+    margin-top: 4rem;
+    padding-bottom: 18.6rem;
+    font-family: 'Pretendard-Regular';
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 164%;
+    color: #B9B9B9;
+}
+
+/* section2 */
+.sec2{
+    z-index: -1;
+    position: relative;
+    height: 100rem;
+    background: linear-gradient(78.05deg, #B1B1B1 15.52%, rgba(217, 217, 217, 0) 89.57%);
+}
+.sec2 img{
+    position: absolute;
+    top: -2rem;
+    left: 22.5%;
+    width: 105rem;
+}
+
+/* section3 */
+.sec3{
+    padding: 0 20rem;
+    font-family: "BASKVILL";
+    color: #040404;
+    background: #FAFAFA;
+}
+.sec3 h3{
+    padding-top: 17rem;
+    padding-bottom: 11rem;
+    font-family: 400;
+    font-size: 4rem;
+}
+.sec3 h6{
+    font-family: 'Pretendard-Regular';
+    font-size: 2rem;
+}
+.sec3 .line{
+    width: 100%;
+    margin: 1.7rem 0;
+    border-top: 1px solid #070707;
+}
+.sec3 .sec3_flex{
+    display: flex;
+    gap: 8rem;
+}
+.sec3 .sec3_flex div{
+    width: 72rem;
+}
+.sec3 .sec3_flex div p{
+    font-size: 11.5rem;
+    line-height: 117%;
+    letter-spacing: 0.01em;
+    word-break: break-all;
+}
+.sec3 .sec3_flex div p:nth-of-type(2){
+    font-family: "BASKVILL-R";
+}
+.sec3 .sec3_flex div:nth-of-type(1) h6:nth-of-type(2){
+    margin-bottom: 3rem;
+}
+.sec3 .sec3_flex div:nth-of-type(1) h6:nth-of-type(3){
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+.sec3 .sec3_flex div:nth-of-type(2) p:nth-of-type(1){
+    margin-top: 7rem;
+    line-height: 110%;
+}
+.sec3 .sec3_flex div:nth-of-type(2) p:nth-of-type(2){
+    margin-top: 28rem;
+    line-height: 110%;
+}
+.sec3 div:last-of-type>h6:nth-of-type(1){
+    margin-top: 12rem;
+}
+.sec3 div:last-of-type>h6:nth-of-type(3){
+    margin-top: 6.8rem;
+}
+.sec3 div:last-of-type>p{
+    font-size: 9.8rem;
+}
+.sec3 div:last-of-type>p:nth-of-type(1){
+    margin-top: 2rem;
+}
+.sec3 div:last-of-type>p:nth-of-type(2){
+    margin-top: 2rem;
+    padding-bottom: 22.5rem;
+    font-family: "BASKVILL-R";
+}
+
+/* section4 */
+.sec4{
+    padding: 0 20rem 18rem;
+    color: #fff;
+    font-family: "BASKVILL";
+    background: #040404;
+}
+.sec4 h3{
+    padding-top: 16rem;
+    font-size: 4rem;
+}
+.sec4 p{
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    font-size: 2.2rem;
+}
+.sec4 ul{
+    display: flex;
+    gap: 2.6rem;
+    font-family: 'Pretendard-Regular';
+    font-size: 2.2rem;
+}
+.sec4 ul li{
+    display: flex;
+    justify-content: space-between;
+    width: 48rem;
+    margin-bottom: 2.8rem;
+}
+.sec4 img{
+    width: 48rem;
+}
+.sec4 .grid{
+    position: relative;
+}
+.sec4 .grid img:nth-of-type(2){
+    position: absolute;
+}
+.sec4 .sec4_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 4.8rem;
+}
+.sec4 .grid1 img:nth-of-type(2){
+    top: 4.8rem;
+    left: 6.3rem;
+    width: 41rem;
+}
+.sec4 .grid2 img:nth-of-type(2){
+    top: 6.3rem;
+    left: 9.2rem;
+    width: 33rem;
+}
+.sec4 .grid3 img:nth-of-type(2){
+    top: 0.9rem;
+    left: 6.8rem;
+    width: 33rem;
+}
+.sec4 .grid4 img:nth-of-type(2){
+    top: 5.1rem;
+    left: 9.0rem;
+    width: 21rem;
+}
+.sec4 .grid5 img:nth-of-type(2){
+    top: 6.6rem;
+    left: 13.1rem;
+    width: 16rem;
+}
+.sec4 .grid6 img:nth-of-type(2){
+    top: 1.5rem;
+    left: 15.2rem;
+    width: 16rem;
+}
+.sec4 .grid7 img:nth-of-type(2){
+    top: 7.5rem;
+    left: 9.8rem;
+    width: 26rem;
+}
+.sec4 .grid8 img:nth-of-type(2){
+    top: -1rem;
+    left: 10.1rem;
+    width: 28rem;
+}
+.sec4 .grid9 img:nth-of-type(2){
+    top: 3.2rem;
+    left: 8.1rem;
+    width: 31rem;
+}
+
+/* section5 */
+.sec5{
+    background: linear-gradient(78.05deg, #B1B1B1 15.52%, rgba(217, 217, 217, 0) 89.57%);
+}
+.sec5 img{
+    margin: 9.6rem 14.4rem;
+    width: 163rem;
+}
+
+/* section6 */
+.sec6{
+    color: #fff;
+    font-family: "BASKVILL";
+    background: #040404;
+}
