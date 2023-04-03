@@ -1,3 +1,8 @@
+.wrap{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 /* section1 */
 .sec1{
     position: relative;
