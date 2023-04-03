@@ -13,6 +13,22 @@
     src: url(../fonts/baskerville-t-regular-italic.ttf) format('truetype');
 }
 @font-face {
+    font-family: "BASKVILL-B";
+    src: url(../fonts/MBaskerville-BoldItalic.otf) format('truetype');
+}
+@font-face {
+    font-family: "BASKVILLB";
+    src: url(../fonts/BaskervilleT-Bold.otf) format('truetype');
+}
+@font-face {
+    font-family: "BASKVILLM";
+    src: url(../fonts/BaskervilleT-Medi.otf) format('truetype');
+}
+@font-face {
+    font-family: "BASKVILLR";
+    src: url(../fonts/BaskervilleT-Regu.otf) format('truetype');
+}
+@font-face {
     font-family: 'Pretendard-Regular';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
     font-weight: 400;
